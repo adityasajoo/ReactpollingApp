@@ -12,7 +12,7 @@ A simple React Polling Application, where users are given few choices, can vote 
 For development, you will require need Node.js and postgres installed in your system.
 
 #### Node can be installed from : [NodeJS](https://nodejs.org/en/)
-#### Postgresql can be installed from : [NodeJS](https://www.postgresql.org/)
+#### Postgresql can be installed from : [Postgresql](https://www.postgresql.org/)
 
 ---
 
@@ -42,7 +42,7 @@ For development, you will require need Node.js and postgres installed in your sy
                         voting_choice Boolean NOT NULL,
                         casted_at VARCHAR(255) NOT NUll 
                     );
-        NOTE: Postgre user,post,db can be configured in ./server/.env
+        NOTE: Postgre user,password,db can be configured in ./server/.env
 
 ## Installation
     * Server 
